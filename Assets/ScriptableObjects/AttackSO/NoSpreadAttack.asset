@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f019c0b690a55114da75934bba0b4af2, type: 3}
   m_Name: NoSpreadAttack
   m_EditorClassIdentifier: 
-  size: 0
-  delay: 0
-  power: 0
-  speed: 0
+  size: 1
+  delay: 2
+  power: 10
+  speed: 10
   target:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   isOnKnockback: 0
   knockbackPower: 0
   knockbackTime: 0
-  bulletNameTag: 
-  duration: 0
+  bulletNameTag: Bullet
+  duration: 5
   spread: 0
-  numberofProjectilesPerShot: 0
-  multipleProjectilesAngel: 0
+  numberofProjectilesPerShot: 1
+  multipleProjectilesAngel: 7
   projectileColor: {r: 0, g: 0, b: 0, a: 0}
